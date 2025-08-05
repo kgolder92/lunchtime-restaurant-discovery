@@ -1,9 +1,11 @@
+import React from "react";
+import Home from "./containers/Home.tsx";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Lunch time discovery app</h1>
+      <Home />
     </div>
   );
 }
